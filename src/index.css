@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-[#1A2036] text-[#8795C5];
+  }
+
+  ::selection {
+    @apply bg-[#2E3650];
+  }
+}
