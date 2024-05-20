@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# OTP Verification Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+O OTP Verification Component simula uma autenticação multifator, verificando o código OTP para proteger aplicações web e móveis contra acessos não autorizados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O Projeto foi feito utilizando React, Typescript, TailwindCSS e Vitest.
 
-## Expanding the ESLint configuration
+Projeto feito usando o [desafio do site FrontendPro](https://www.frontendpro.dev/frontend-coding-challenges/otp-verification-component-UiMLpAugWbrGYBzXAcly?ref=hackernoon.com)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[Live](https://otp-verification-component-tau.vercel.app)
 
-- Configure the top-level `parserOptions` property like this:
+## Funcionalidades
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- O submit é feito apenas se todos os campos estiverem preenchidos.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Os campos apenas aceitam caracteres numéricos.
+
+- Exibe uma mensagem de sucesso e erro.
+
+- Razão da vitória.
+
+- Design responsivo e moderno utilizando Tailwind CSS.
+
+- Testes unitários com Vitest.
+
+## Como Executar
+
+1. Clone o repositório.
+2. Instale as dependências usando o comando:
+   ```
+   npm install
+   ```
+3. Inicie o aplicativo com:
+   ```
+   npm run dev
+   ```
+4. Abra o aplicativo no seu navegador.
+5. Inicie os testes com:
+   ```
+   npm run test
+   ```
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar pull requests.
